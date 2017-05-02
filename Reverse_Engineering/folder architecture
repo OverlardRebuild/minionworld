@@ -38,6 +38,7 @@ Maps [.omp format]
 	Tower (overlord tower)
 		tower, tower_dungeon, tower_spawnpit
 	and a file called playermap.omp
+	
 Resources
 	Fonts: used text fonts ingame, 11 different ones [.clb format]
 	Songs: all the music in the game [.mp3 format]
