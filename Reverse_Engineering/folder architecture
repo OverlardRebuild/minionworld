@@ -1,0 +1,75 @@
+Game folder architecture- for use in Minion World
+
+
+ambXDATA:
+		Effects: all the sound effects of spells, mana/health pickups, explosions and vitality sounds [.8ld format]
+		Video: gameplay cinematics [.bik.8ld format]
+	
+DirectX
+		DirectX updates [.cab format]
+Expansion
+	ChallengePack
+		mpmaps: multiplayer maps Arena, Bombs, Grab the Maidens, Kill the Hoard, King of the Hill, MMMaidens and Misty [.omp format]
+		resources: character models for use in the MP maps [.prp format]
+		packdata.ini: translation data for the names of the MP maps
+	RaisingHellPack
+		(see bottom)
+	SplitScreenPack
+		Config_files: language packs per language [.dat format]
+		Maps: Rocky Race map [.omp format]
+		Resources: character models for Dwarfs, Rolling Beast, Rock Giant Boss
+		
+Language
+	All the sounds effects that require a specific language, like english. Talk, shouting, grummin' [.8ld format]
+Maps [.omp format]
+	The maps have been divided per domain:
+	Domain 01 (Mellow Hills)
+		main domain, slave camp, halfling homes 1 and 2, hell's kitchen, entrycastlespree, spreedungeon
+	Domain 02 (Evernight Forest)
+		main domain, green cave, skull den, troll temple
+	Domain 03 (Heaven's Peak)
+		main domain, blue cave, sewers, red light inn, citadel
+	Domain 04 (Golden Hills)
+		main domain, gold mine, quarry, homey halls, arcanium mines, royal halls
+	Domain 05 (probably Ruborian Desert)
+		warrior domain
+	MPMaps (multiplayer maps)
+		deathtrap, gates, last stand, party crashers, plunder, tomb robber [.omp format]
+	Tower (overlord tower)
+		tower, tower_dungeon, tower_spawnpit
+	and a file called playermap.omp
+Resources
+	Fonts: used text fonts ingame, 11 different ones [.clb format]
+	Songs: all the music in the game [.mp3 format]
+	and all character models/meshes, formatted in:
+		Breakables_Sewers.prp
+		Character models of all elves, dwarfs, humand etc. in .prp
+		Environment models in .prp
+		Interface in .prp
+		Minion voice data in .pvp
+		Overlord armor files in .prp
+		Props and particles (whatever that may be) in .prp
+		And a ton of structures data, of the mines, houses and tower in .prp
+		Quests in .prp
+		Test pack.prp
+		Tower objects in .prp
+		Tutorial messages in .prp
+		Waterfall.prp
+		and WIzard SFX, probably the lighting effects during the fight with the wizard. [.prp format]
+Video
+	Another load of cinematic video files, in .bik format
+Main
+	Installer files in .vdf, .dll, and .dat formats
+	Texture sets in .map format
+	Voice files in .flt, .m3d and .asi formats
+	3DSMAX files in .clr format
+	Language files, both in .ini and .dll
+	A readme file as usual (.txt)
+	Configuration file and game launcher app (.exe)
+	
+			
+		
+		
+		
+		
+		
